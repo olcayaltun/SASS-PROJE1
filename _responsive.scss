@@ -1,0 +1,44 @@
+@media screen and (max-width: 799px) {
+  .Header-links {
+    display: none;
+  }
+  .Main {
+    display: flex;
+    flex-direction: column;
+    .Main-about-img {
+      img {
+        margin-left: 50px;
+        height: 150px;
+        width: 150px;
+      }
+    }
+  }
+  .Main-about-title {
+    width: 300px;
+    margin-left: 50px;
+  }
+  .Main-about-dsc {
+    p {
+      margin-left: 50px;
+    }
+  }
+  .Main-projects {
+    .a {
+      display: flex;
+      justify-content: center;
+    }
+    .section {
+      display: flex;
+      justify-content: center;
+      gap: 200px;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+    .Main-projects-bar {
+      width: 400px;
+      margin-left: 40px;
+    }
+  }
+}

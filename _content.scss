@@ -1,0 +1,136 @@
+.Main {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  &-about {
+    margin-top: 20px;
+    img {
+      width: 240px;
+      height: 240px;
+      border-radius: 50%;
+    }
+    &-title {
+      margin-top: 30px;
+      h3 {
+        padding-bottom: 10px;
+      }
+      h4 {
+        padding-bottom: 30px;
+      }
+      button {
+        background: none;
+        border-radius: 3px;
+        width: 100%;
+        height: 30px;
+        border: 1px solid rgba(27, 31, 35, 0.2);
+        background-color: #eff3f6;
+        background-image: linear-gradient(-180deg, #fafbfc, #eff3f6 90%);
+      }
+    }
+    &-dsc {
+      margin-top: 16px;
+    }
+  }
+  &-projects {
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 100%;
+
+    .a {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      a {
+        text-decoration: none;
+      }
+    }
+    .section {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      a {
+        font-size: 16px;
+        color: #586069;
+        text-decoration: none;
+      }
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      :nth-child(1) {
+        span {
+          background-color: hsl(23, 97%, 50%);
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          display: inline-block;
+        }
+      }
+      :nth-child(2) {
+        span {
+          background-color: #fa04b4;
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          display: inline-block;
+        }
+      }
+      :nth-child(3) {
+        span {
+          background-color: #eff708;
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          display: inline-block;
+        }
+      }
+      :nth-child(4) {
+        span {
+          background-color: #4604fa;
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          display: inline-block;
+        }
+      }
+    }
+    &-bar {
+      height: 80px;
+      margin-top: 20px;
+      padding: 10px;
+      position: relative;
+      border: 1px solid #e7e4e4;
+      margin-right: 10px;
+      border-radius: 10px;
+
+      .up {
+        display: flex;
+
+        .yeni {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          gap: 5px;
+          a {
+            text-decoration: none;
+          }
+        }
+        .right {
+          i {
+            position: absolute;
+            right: 10px;
+          }
+        }
+      }
+      .down {
+        margin-top: 40px;
+        margin-left: 20px;
+      }
+    }
+  }
+}
